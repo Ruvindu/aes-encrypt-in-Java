@@ -18,7 +18,7 @@ public class AESDecryption {
         SecretKey secretKey = Utils.loadSecretKey(keyStoreFile, keyPassword, keyAlias);
 
         // Step 3: Decrypt with the Symmetric Key (Symmetric Decryption)
-        byte[] decryptedDataWithSecretKey = Utils.decryptWithSecretKey(secretKey, encryptedData);
+            byte[] decryptedDataWithSecretKey = Utils.decryptWithSecretKey(secretKey, encryptedData);
 
         System.out.println("\n--------------------------------");
         System.out.println("\nDecryption Process...");
